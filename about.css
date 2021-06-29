@@ -24,8 +24,8 @@
     margin-left: 850px;
 }
 .title h1 {
-    padding-left: 500px;
-    padding-top: 200px;
+    padding-left: 400px;
+    padding-top: 150px;
     font-size: 70px;
     line-height: 1.3em;
     font-family: 'Poppins', sans-serif;
@@ -232,4 +232,262 @@ footer {
 }
 .soc {
     padding-left: 100px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-head {
+        background-color: #3c1c7b;
+    }
+    #about {
+        width: 100%;
+        height: 50%;
+        background-size: contain;
+    }
+    .title h1 {
+        padding-left: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .sweet-tooth {    
+        display: grid;
+        position: relative;
+        right: 5%;        
+        width: 100%;
+    }
+    .cloudy {
+        background-size: cover;
+        width: 100%;
+    }
+    .numbers {
+        display: grid;
+        padding: 0;
+    }
+    .numbers span {
+        font-size: 60px;
+        padding-left: 200px;
+    }
+    body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
+        padding-left: 220px;
+    }
+    .numbers p {
+        font-size: 18px;
+        padding-left: 100px;
+    }
+    .experts {
+        display: grid;
+    }
+    .more-info {
+        padding-top:  30px;
+    }
+    .more-info .button {
+        width: 485px;
+    }
+    .progress {
+        width: 100%;
+    }
+    .slider {
+        position: relative;
+        right: 55%;
+        padding-right: 10px;
+    }
+    .skull-island {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .subscription {
+        padding: 150px 50px 0px 100px;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 120px 0px 0px;
+    }
+    footer img {
+        padding: 0px 220px;
+        margin-bottom: 50px;
+    }
+    footer a {
+        margin-left: 90px;
+    }
+    .copyright {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .soc {
+        padding-right: 30px;
+    }
+    .soc i {
+        margin: 12px !important;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-head {
+        background-color: #3c1c7b;
+        height: 70px;
+    }
+    .navbar-brand img {
+        height: 52px;
+    }
+    #about {
+        position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        padding-bottom: 0;
+    }
+    .title h1 {
+        padding-left: 180px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .sweet-tooth {    
+        display: grid;
+        position: relative;
+    }
+    .applecandy {
+        padding: 0px 0px 0px 50px;
+    }
+    .applecandy h2 {
+        font-size: 25px;
+        line-height: 27px;
+        padding-right: 300px;
+    }
+    .applecandy p {
+        font-size: 18px;
+        line-height: 25px;
+        padding-right: 250px;
+    }
+   .applecandy h5 {
+    font-size: 15px;
+    line-height: 17px;
+   }
+   .eighty {
+       padding-left: 80px !important;
+   } 
+   .fifty-five {
+        padding-left: 92px !important;
+    } 
+    .sixty-eight {
+        padding-left: 127px !important;
+    } 
+   .progress {
+       width: 250px !important;
+   }
+   .applecandy-img img {
+       width: 50%;
+       position: relative;
+       left: 90px;
+   }
+   .cloudy {
+    background-size: cover;
+    width: 100%;
+    }
+    .numbers {
+        display: grid;
+        padding: 0;
+    }
+    .numbers span {
+        font-size: 60px;
+        padding-left: 180px;
+    }
+    body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
+        padding-left: 190px;
+    }
+    .numbers p {
+        font-size: 18px;
+        padding-left: 105px;
+    }
+    .experts {
+        display: grid;
+        padding-top: 100px;
+    }
+    .space-img img {
+        width: 50%;
+        position: relative;
+        padding-bottom: 50px;
+        left: 90px;
+    }
+    .more-info .button {
+        position: relative;
+        left: 50px;
+        width: 77%;
+        margin: 0 0 10px;    
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    button i {
+        display: none;
+    }
+    .progress {
+        display: none;
+    }
+    .slider {        
+        position: relative;
+        padding-left: 100px;
+        padding-right: 10px;
+        width: 400px;
+    }
+    .skull-island {
+        width: 100%;
+    }
+    .subscription {
+        padding: 250px 20px 0px 50px;
+    }
+    .subscription p {
+        text-align: center;
+    }
+    .form-group {
+        display: flex;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .form-control {
+        width: 300px; 
+        height: 50px;
+    }
+    footer {
+       width: 100%;
+    }
+    footer .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer img {
+        position: relative;
+        left: 15%;
+        margin-bottom: 50px;     
+    }
+    .copyright {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        position: relative;
+        right: 8%;
+    }
+    .soc {
+        position: relative;
+        right: 13%;
+    }
+    .soc i {
+        margin: 12px !important;
+    }
 }
