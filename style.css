@@ -217,9 +217,14 @@ footer {
 
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    body {
-        width: 100vw;
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
     }
+    main {        
+        margin-right: -50px;
+    }
+    
     .pirate-game {
         margin-left: 50px;
     }
