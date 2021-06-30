@@ -1,0 +1,537 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#about {
+    background-image: url(img/about-bg-1.jpg);
+    height: 550px;
+    background-position: 50% 0%;
+    background-attachment: fixed;
+}
+.nav-link {
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.nav-link:hover {
+    color: #9d9d9d;
+}
+.navbar-nav {
+    margin-left: 850px;
+}
+.title h1 {
+    padding-left: 400px;
+    padding-top: 150px;
+    font-size: 70px;
+    line-height: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.sweet-tooth {    
+    display: flex;
+}
+.applecandy {
+    padding-top: 100px;
+}
+.applecandy h2 {
+    color: #010101;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bolder;
+}
+.applecandy p {
+    color: #5e5e5e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+}
+.applecandy h5 {
+    color: #010101;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+}
+.numbers {    
+    display: flex;
+    padding-top: 100px;
+}
+.numbers span {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-right: 100px;
+}
+.numbers p {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+.cloudy {
+    background-image: url(img/about-bg-3.jpg);
+}
+.experts {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.more-info {
+    padding-left: 30px;
+}
+.more-info .button {
+    background-color: #ec0064;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    margin: 0 0 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    height: 54px;
+    width: 530px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.more-info .button i::after {
+    content: icon;
+}
+.lorem {
+    padding-bottom: 20px;
+}
+.lorem p {
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}
+.progress-level {
+    background-image: url(img/aboutbg-4.jpg);
+    height: 450px;
+    background-position: 50% 0%;
+    background-attachment: fixed;
+}
+.levels {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 150px;
+}
+.canvas-wrap { 
+    padding-top: 50px;
+}
+.text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+.text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+.slider {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1150px;
+    padding-left: 450px;
+}
+.carousel-item h1 {
+    color: #2D2016;
+    font-size: 50px;
+    font-weight: 700;
+}
+.carousel-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #4e4d4d;
+}
+.carousel-item h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    color: #010101;
+}
+.skull-island {
+    background-image: url(img/about-bg-5.jpg);
+    background-size: cover;
+}
+.subscription {
+    padding-top: 200px;
+    padding-left: 550px;
+}
+.subscription p {
+    padding-left: 20px;
+}
+.subscription form {
+    padding-bottom: 200px;
+}
+.signup {    
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.form-group {
+    padding-left: 100px;
+}
+.form-control {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    width: 50px; 
+    height: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+footer {
+    display: flex;
+    columns: 4;
+    background-color: #3c1c7b;
+}
+.footer {
+    padding-right: 250px;
+}
+.footer-img {
+    padding-right: 250px;
+}
+.copyright {
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+.soc {
+    padding-left: 100px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-head {
+        background-color: #3c1c7b;
+    }
+    #about {
+        width: 100%;
+        height: 50%;
+        background-size: contain;
+    }
+    .title h1 {
+        padding-left: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .sweet-tooth {    
+        display: grid;
+        position: relative;
+        right: 0%;        
+        width: 100%;
+    }
+    .cloudy {
+        background-size: cover;
+        width: 100%;
+    }
+    .numbers {
+        display: grid;
+        padding: 0;
+    }
+    .numbers span {
+        font-size: 60px;
+        padding-left: 300px;
+    }
+    body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
+        padding-left: 310px;
+    }
+    .numbers p {
+        font-size: 18px;
+        padding-left: 100px;
+    }
+    .experts {
+        display: grid;
+    }
+    .more-info {
+        padding-top: 30px;
+    }
+    .more-info .button {
+        width: 520px;
+    }
+    .progress-level {
+        width: 100%;
+    }
+    .levels {
+        display: flex;
+        padding-top: 150px;
+    }
+    .canvas-wrap { 
+        padding-top: 30px;
+    }
+    .text {
+        padding-right: 20px;
+    }
+    .text h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+    .text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+    .slider {
+        position: relative;
+        right: 55%;
+        padding-right: 10px;
+    }
+    .skull-island {
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .subscription {
+        padding: 150px 50px 0px 150px;
+    }
+    footer {
+        width: 100%;
+    }
+    footer .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 120px 0px 0px;
+    }
+    footer img {
+        padding: 0px 220px;
+        margin-bottom: 50px;
+    }
+    footer a {
+        margin-left: 90px;
+    }
+    .copyright {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .soc {
+        padding-right: 30px;
+    }
+    .soc i {
+        margin: 12px !important;
+    }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-head {
+        background-color: #3c1c7b;
+        height: 70px;
+    }
+    .navbar-brand img {
+        height: 52px;
+    }
+    #about {
+        position: relative;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        padding-bottom: 0;
+    }
+    .title h1 {
+        padding-left: 180px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .sweet-tooth {    
+        display: grid;
+        position: relative;
+    }
+    .applecandy {
+        padding: 0px 0px 0px 50px;
+    }
+    .applecandy h2 {
+        font-size: 25px;
+        line-height: 27px;
+        padding-right: 300px;
+    }
+    .applecandy p {
+        font-size: 18px;
+        line-height: 25px;
+        padding-right: 250px;
+    }
+   .applecandy h5 {
+    font-size: 15px;
+    line-height: 17px;
+   }
+   .eighty {
+       padding-left: 80px !important;
+   } 
+   .fifty-five {
+        padding-left: 92px !important;
+    } 
+    .sixty-eight {
+        padding-left: 127px !important;
+    } 
+   .progress {
+       width: 250px !important;
+   }
+   .applecandy-img img {
+       width: 50%;
+       position: relative;
+       left: 80px;
+   }
+   .cloudy {
+    background-size: cover;
+    width: 100%;
+    }
+    .numbers {
+        display: grid;
+        padding: 0;
+    }
+    .numbers span {
+        font-size: 60px;
+        padding-left: 180px;
+    }
+    body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
+        padding-left: 190px;
+    }
+    .numbers p {
+        font-size: 18px;
+        padding-left: 105px;
+    }
+    .experts {
+        display: grid;
+        padding-top: 100px;
+    }
+    .space-img img {
+        width: 50%;
+        position: relative;
+        padding-bottom: 50px;
+        left: 90px;
+    }
+    .more-info .button {
+        position: relative;
+        left: 50px;
+        width: 77%;
+        margin: 0 0 10px;    
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    button i {
+        display: none;
+    }
+    .levels {
+        display: grid;
+        padding-top: 50px;
+    }
+    .canvas-wrap { 
+        padding-top: 0px;
+    }
+    .text h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 0;
+    }
+    .text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+    .slider {        
+        position: relative;
+        padding-left: 85px;
+        padding-right: 20px;
+        width: 400px;
+    }
+    .skull-island {
+        width: 100%;
+    }
+    .subscription {
+        padding: 250px 20px 0px 30px;
+    }
+    .subscription p {
+        text-align: center;
+    }
+    .form-group {
+        display: flex;
+        width: 100%;
+        padding-left: 45px;
+    }
+    .form-control {
+        width: 250px; 
+        height: 50px;
+    }
+    footer {
+       width: 100%;
+    }
+    footer .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer img {
+        position: relative;
+        left: 15%;
+        margin-bottom: 50px;     
+    }
+    .copyright {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        position: relative;
+        right: 8%;
+    }
+    .soc {
+        position: relative;
+        right: 13%;
+    }
+    .soc i {
+        margin: 12px !important;
+    }
+}
