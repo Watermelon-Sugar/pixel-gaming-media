@@ -122,9 +122,9 @@
     line-height: 27px;
     font-weight: 300;
 }
-.progress {
+.progress-level {
     background-image: url(img/aboutbg-4.jpg);
-    height: 550px;
+    height: 450px;
     background-position: 50% 0%;
     background-attachment: fixed;
 }
@@ -133,11 +133,8 @@
     justify-content: space-evenly;
     padding-top: 150px;
 }
-.canvas-wrap span {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 175px;
+.canvas-wrap { 
+    padding-top: 50px;
 }
 .text h3 {
     font-family: 'Poppins', sans-serif;
@@ -160,7 +157,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     width: 1150px;
-    padding-left: 500px;
+    padding-left: 450px;
 }
 .carousel-item h1 {
     color: #2D2016;
@@ -187,7 +184,7 @@
 }
 .subscription {
     padding-top: 200px;
-    padding-left: 600px;
+    padding-left: 550px;
 }
 .subscription p {
     padding-left: 20px;
@@ -247,7 +244,7 @@ footer {
         background-size: contain;
     }
     .title h1 {
-        padding-left: 200px;
+        padding-left: 300px;
         padding-top: 50px;
         padding-bottom: 50px;
         font-size: 30px;
@@ -256,7 +253,7 @@ footer {
     .sweet-tooth {    
         display: grid;
         position: relative;
-        right: 5%;        
+        right: 0%;        
         width: 100%;
     }
     .cloudy {
@@ -269,10 +266,10 @@ footer {
     }
     .numbers span {
         font-size: 60px;
-        padding-left: 200px;
+        padding-left: 300px;
     }
     body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
-        padding-left: 220px;
+        padding-left: 310px;
     }
     .numbers p {
         font-size: 18px;
@@ -282,13 +279,39 @@ footer {
         display: grid;
     }
     .more-info {
-        padding-top:  30px;
+        padding-top: 30px;
     }
     .more-info .button {
-        width: 485px;
+        width: 520px;
     }
-    .progress {
+    .progress-level {
         width: 100%;
+    }
+    .levels {
+        display: flex;
+        padding-top: 150px;
+    }
+    .canvas-wrap { 
+        padding-top: 30px;
+    }
+    .text {
+        padding-right: 20px;
+    }
+    .text h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 23px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+    .text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
     }
     .slider {
         position: relative;
@@ -300,7 +323,7 @@ footer {
         background-repeat: no-repeat;
     }
     .subscription {
-        padding: 150px 50px 0px 100px;
+        padding: 150px 50px 0px 150px;
     }
     footer {
         width: 100%;
@@ -352,7 +375,7 @@ footer {
         padding-bottom: 0;
     }
     .title h1 {
-        padding-left: 120px;
+        padding-left: 180px;
         padding-top: 10px;
         padding-bottom: 0px;
         font-size: 30px;
@@ -379,10 +402,6 @@ footer {
     font-size: 15px;
     line-height: 17px;
    }
-   .progress-bar {
-       height: 8px;
-       background-color: #ec0064;
-    }
    .eighty {
        padding-left: 80px !important;
    } 
@@ -410,10 +429,10 @@ footer {
     }
     .numbers span {
         font-size: 60px;
-        padding-left: 140px;
+        padding-left: 180px;
     }
     body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
-        padding-left: 150px;
+        padding-left: 190px;
     }
     .numbers p {
         font-size: 18px;
@@ -441,8 +460,29 @@ footer {
     button i {
         display: none;
     }
-    .progress {
-        display: none;
+    .levels {
+        display: grid;
+        padding-top: 50px;
+    }
+    .canvas-wrap { 
+        padding-top: 0px;
+    }
+    .text h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 0;
+    }
+    .text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
     }
     .slider {        
         position: relative;
@@ -454,7 +494,7 @@ footer {
         width: 100%;
     }
     .subscription {
-        padding: 250px 20px 0px 50px;
+        padding: 250px 20px 0px 30px;
     }
     .subscription p {
         text-align: center;
@@ -462,7 +502,7 @@ footer {
     .form-group {
         display: flex;
         width: 100%;
-        padding-left: 10px;
+        padding-left: 45px;
     }
     .form-control {
         width: 250px; 
