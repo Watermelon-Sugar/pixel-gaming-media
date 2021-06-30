@@ -1,0 +1,208 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    body{
+        overflow-x: hidden;
+    }
+
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    #navbarNav{
+        margin-left: -25%;
+    }
+    .row-container{
+        flex-direction: column;
+    }
+    .header-middle, .header-right{
+        display: none;
+    }
+    body > div.section-4.box > section > div.header-left{
+        width: 100%;
+        text-align: center;
+    }    
+    body > div.section-4.box > section{
+        background-color:#3c1c7b ;
+
+    }
+    body > div.section-1.box > section > div.title > div > div > div{
+      display: flex;
+      padding-left: 5%;
+    }
+
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        body{
+            overflow-x: hidden;
+        }
+        #navbarNav{
+            margin-left: -25%;
+        }
+        .row-container{
+            flex-direction: column;
+        }
+        .header-middle, .header-right{
+            display: none;
+        }
+        body > div.section-4.box > section > div.header-left{
+            width: 100%;
+            text-align: center;
+        }    
+        body > div.section-4.box > section{
+            background-color:#3c1c7b ;
+
+        }
+        body > div.section-1.box > section > div.title > div > div > div{
+            display: flex;
+            padding-left: 5%;
+        }
+        .navbar{
+            /* flex-direction: column; */
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+        }
+        
+    
+
+    }    
+    /* CSS */
+    
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+        body{
+            overflow-x: hidden;
+        }
+        #navbarNav{
+            margin-left: -25%;
+        }
+        .row-container{
+            flex-direction: column;
+        }
+        .header-middle, .header-right{
+            display: none;
+        }
+        body > div.section-4.box > section > div.header-left{
+            width: 100%;
+            text-align: center;
+        }    
+        body > div.section-4.box > section{
+            background-color:#3c1c7b ;
+
+        }
+        body > div.section-1.box > section > div.title > div > div > div{
+        display: flex;
+        padding-left: 5%;
+        }
+        .resp{
+            display: flex;
+            flex-direction: column;
+        }
+        .navbar{
+            flex-direction: column;
+        }
+        .footbtn, .copsoc{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+    }    
+    /* CSS */
+    
+  
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    #navbarNav{
+        margin-left: -25%;
+    }
+    .row-container{
+        flex-direction: column;
+    }
+    .header-middle, .header-right{
+        display: none;
+    }
+    body > div.section-4.box > section > div.header-left{
+        width: 100%;
+        text-align: center;
+    }    
+    body > div.section-4.box > section{
+        background-color:#3c1c7b ;
+
+    }
+    body > div.section-1.box > section > div.title > div > div > div{
+      display: flex;
+      padding-left: 5%;
+    }
+    .footbtn, .copsoc{
+        display: flex;
+        flex-direction: column;
+    }
+    .soc {
+        padding-left: 0%;
+        margin-left: -15%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+
+
+    /* CSS */
+    
+  }
