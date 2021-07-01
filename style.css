@@ -20,10 +20,10 @@
     color: #9d9d9d;
 }
 .navbar-nav {
-    margin-left: 850px;
+    margin-left: auto;
 }
 .pirate-game {
-    margin-left: 150px;
+    padding-left: 5%;
 }
 .skull-img {
     margin-top: 100px;
@@ -64,9 +64,11 @@
     background-attachment: fixed;
 }
 .witch {
-    padding-left: 1000px;
+    text-align: right;
+    padding-right: 5%;
 }
 .magic-img img {
+    margin-left: auto;
     margin-top: 100px;
 }
 .sorcery h1 {
@@ -83,8 +85,8 @@
     background-position: 50% 0%;
     background-attachment: fixed;
 }
-.candyland {
-    margin-left: 150px;
+.sweet-tooth {
+    margin-left: 5%;
 }
 .candy-img img {
     margin-top: 100px;
@@ -96,6 +98,7 @@
     line-height: 56px;
     font-weight: 700;
     margin-top: 50px;
+    margin-left: auto;
     width: 517px;
 }
 .space {
@@ -103,8 +106,9 @@
     background-position: 50% 0%;
     background-attachment: fixed;
 }
-.galactic {
-    padding-left: 1000px;
+.spaceship {
+    text-align: right;
+    padding-right: 5%;
 }
 .space-img img {
     margin-top: 100px;
@@ -117,6 +121,7 @@
     font-weight: 700;
     margin-top: 50px;
     width: 517px;
+    margin-left: auto;
 }
 footer {
     display: flex;
@@ -124,7 +129,7 @@ footer {
     background-color: #3c1c7b;
 }
 .footer {
-    padding-right: 250px;
+    padding-left: 8%;
 }
 .copyright {
     padding-left: 50px;
@@ -142,7 +147,7 @@ footer {
         overflow-x: hidden;
     }
     .navbar-nav {
-        margin-left: 150px;
+        margin-left: auto;
     }
     #pirates {
         width: 100%;
@@ -225,7 +230,6 @@ footer {
     main {        
         margin-right: -50px;
     }
-    
     .pirate-game {
         margin-left: 50px;
     }
@@ -251,7 +255,7 @@ footer {
         font-weight: 700;
     }
     .witch {
-        padding-left: 50px;
+        padding-right: 20%;
     }
     .sorcery h1 {
         margin-top: 5px;
@@ -260,7 +264,7 @@ footer {
         width: 190px;
     }
     .candyland {
-        margin-left: 50px;
+        margin-left: 5%;
     }
     .sweets h1 {
         margin-top: 5px;
@@ -269,7 +273,7 @@ footer {
         width: 190px;
     }
     .galactic {
-        padding-left: 50px;
+        padding-right: 20%;
     }
     .super-space h1 {
         margin-top: 5px;
@@ -281,13 +285,12 @@ footer {
         width: 100%;
     }
     footer .navbar {
-        display: flex;
+        display: block;
         flex-direction: column;
         justify-content: center;
     }
     footer img {
-        position: relative;
-        left: 15%;
+        text-align: center;
         margin-bottom: 50px;     
     }
     .copyright {
