@@ -79,6 +79,7 @@
     font-weight: 700;
     margin-top: 50px;
     width: 517px;
+    margin-left: auto;
 }
 .candy {
     background-image: url(img/bg-3.jpg);
@@ -98,7 +99,7 @@
     line-height: 56px;
     font-weight: 700;
     margin-top: 50px;
-    margin-left: auto;
+    margin-right: auto;
     width: 517px;
 }
 .space {
@@ -127,9 +128,17 @@ footer {
     display: flex;
     columns: 4;
     background-color: #3c1c7b;
+    margin-left: auto;
+}
+.copyright {
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
 }
 .footer {
-    padding-left: 8%;
+    padding-right: 5%;
 }
 .copyright {
     padding-left: 50px;
@@ -256,6 +265,7 @@ footer {
     }
     .witch {
         padding-right: 20%;
+        text-align: right;
     }
     .sorcery h1 {
         margin-top: 5px;
@@ -283,9 +293,10 @@ footer {
     }
     footer {
         width: 100%;
+        margin-left: auto;
     }
     footer .navbar {
-        display: block;
+        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -300,8 +311,7 @@ footer {
         right: 8%;
     }
     .soc {
-        position: relative;
-        right: 13%;
+        margin-left: auto;
     }
     .soc i {
         margin: 12px !important;
