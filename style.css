@@ -20,10 +20,10 @@
     color: #9d9d9d;
 }
 .navbar-nav {
-    margin-left: 850px;
+    margin-left: auto;
 }
 .pirate-game {
-    margin-left: 150px;
+    padding-left: 5%;
 }
 .skull-img {
     margin-top: 100px;
@@ -64,9 +64,11 @@
     background-attachment: fixed;
 }
 .witch {
-    padding-left: 1000px;
+    text-align: right;
+    padding-right: 5%;
 }
 .magic-img img {
+    margin-left: auto;
     margin-top: 100px;
 }
 .sorcery h1 {
@@ -77,14 +79,15 @@
     font-weight: 700;
     margin-top: 50px;
     width: 517px;
+    margin-left: auto;
 }
 .candy {
     background-image: url(img/bg-3.jpg);
     background-position: 50% 0%;
     background-attachment: fixed;
 }
-.candyland {
-    margin-left: 150px;
+.sweet-tooth {
+    margin-left: 5%;
 }
 .candy-img img {
     margin-top: 100px;
@@ -96,6 +99,7 @@
     line-height: 56px;
     font-weight: 700;
     margin-top: 50px;
+    margin-right: auto;
     width: 517px;
 }
 .space {
@@ -103,8 +107,9 @@
     background-position: 50% 0%;
     background-attachment: fixed;
 }
-.galactic {
-    padding-left: 1000px;
+.spaceship {
+    text-align: right;
+    padding-right: 5%;
 }
 .space-img img {
     margin-top: 100px;
@@ -117,14 +122,23 @@
     font-weight: 700;
     margin-top: 50px;
     width: 517px;
+    margin-left: auto;
 }
 footer {
     display: flex;
     columns: 4;
     background-color: #3c1c7b;
+    margin-left: auto;
+}
+.copyright {
+    padding-left: 50px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
 }
 .footer {
-    padding-right: 250px;
+    padding-right: 5%;
 }
 .copyright {
     padding-left: 50px;
@@ -142,7 +156,7 @@ footer {
         overflow-x: hidden;
     }
     .navbar-nav {
-        margin-left: 150px;
+        margin-left: auto;
     }
     #pirates {
         width: 100%;
@@ -225,7 +239,6 @@ footer {
     main {        
         margin-right: -50px;
     }
-    
     .pirate-game {
         margin-left: 50px;
     }
@@ -251,7 +264,8 @@ footer {
         font-weight: 700;
     }
     .witch {
-        padding-left: 50px;
+        padding-right: 20%;
+        text-align: right;
     }
     .sorcery h1 {
         margin-top: 5px;
@@ -260,7 +274,7 @@ footer {
         width: 190px;
     }
     .candyland {
-        margin-left: 50px;
+        margin-left: 5%;
     }
     .sweets h1 {
         margin-top: 5px;
@@ -269,7 +283,7 @@ footer {
         width: 190px;
     }
     .galactic {
-        padding-left: 50px;
+        padding-right: 20%;
     }
     .super-space h1 {
         margin-top: 5px;
@@ -279,6 +293,7 @@ footer {
     }
     footer {
         width: 100%;
+        margin-left: auto;
     }
     footer .navbar {
         display: flex;
@@ -286,8 +301,7 @@ footer {
         justify-content: center;
     }
     footer img {
-        position: relative;
-        left: 15%;
+        text-align: center;
         margin-bottom: 50px;     
     }
     .copyright {
@@ -297,8 +311,7 @@ footer {
         right: 8%;
     }
     .soc {
-        position: relative;
-        right: 13%;
+        margin-left: auto;
     }
     .soc i {
         margin: 12px !important;

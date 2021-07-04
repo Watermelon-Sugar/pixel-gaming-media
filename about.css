@@ -21,7 +21,7 @@
     color: #9d9d9d;
 }
 .navbar-nav {
-    margin-left: 850px;
+    margin-left: auto;
 }
 .title h1 {
     padding-left: 400px;
@@ -87,6 +87,7 @@
     display: flex;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding: auto;
 }
 .more-info {
     padding-left: 30px;
@@ -156,8 +157,7 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1150px;
-    padding-left: 450px;
+    padding: auto;
 }
 .carousel-item h1 {
     color: #2D2016;
@@ -184,21 +184,19 @@
 }
 .subscription {
     padding-top: 200px;
-    padding-left: 550px;
+    text-align: center;
 }
 .subscription p {
     padding-left: 20px;
 }
 .subscription form {
     padding-bottom: 200px;
+    justify-content: center;
 }
 .signup {    
     font-family: "Poppins", sans-serif;
     font-size: 35px;
     font-weight: 700;
-}
-.form-group {
-    padding-left: 100px;
 }
 .form-control {
     border-top-left-radius: 25px;
@@ -213,12 +211,10 @@ footer {
     display: flex;
     columns: 4;
     background-color: #3c1c7b;
+    margin-left: auto;
 }
 .footer {
-    padding-right: 250px;
-}
-.footer-img {
-    padding-right: 250px;
+    padding-right: 6%;
 }
 .copyright {
     padding-left: 50px;
@@ -517,8 +513,6 @@ footer {
         justify-content: center;
     }
     footer img {
-        position: relative;
-        left: 15%;
         margin-bottom: 50px;     
     }
     .copyright {
