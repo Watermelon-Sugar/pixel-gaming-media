@@ -341,3 +341,6 @@ footer {
 .copsoc{
     display: flex;
 }
+.pagination{
+    justify-content: center;
+}
