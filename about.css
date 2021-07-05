@@ -371,7 +371,7 @@ footer {
         padding-bottom: 0;
     }
     .title h1 {
-        padding-left: 180px;
+        padding-left: 150px;
         padding-top: 10px;
         padding-bottom: 0px;
         font-size: 30px;
@@ -425,10 +425,10 @@ footer {
     }
     .numbers span {
         font-size: 60px;
-        padding-left: 180px;
+        padding-left: 145px;
     }
     body > main > section.cloudy > div > div > div > div:nth-child(2) > span {
-        padding-left: 190px;
+        padding-left: 165px;
     }
     .numbers p {
         font-size: 18px;
@@ -482,8 +482,7 @@ footer {
     }
     .slider {        
         position: relative;
-        padding-left: 85px;
-        padding-right: 20px;
+        left: 4%;
         width: 400px;
     }
     .skull-island {
@@ -512,18 +511,29 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+    footer .nav-link {
+        position: relative;
+        left: 70%;
+    }
+    footer .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     footer img {
+        position: relative;
+        left: 30%;
         margin-bottom: 50px;     
     }
     .copyright {
         margin-top: 50px;
         margin-bottom: 30px;
         position: relative;
-        right: 8%;
+        left: 22%;
     }
     .soc {
         position: relative;
-        right: 13%;
+        left: 15%;
     }
     .soc i {
         margin: 12px !important;

@@ -295,12 +295,18 @@ footer {
         width: 100%;
         margin-left: auto;
     }
+    footer .nav-link {
+        position: relative;
+        left: 65%;
+    }
     footer .navbar {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     footer img {
+        position: relative;
+        left: 25%;
         text-align: center;
         margin-bottom: 50px;     
     }
@@ -308,10 +314,11 @@ footer {
         margin-top: 50px;
         margin-bottom: 30px;
         position: relative;
-        right: 8%;
+        left: 22%;
     }
     .soc {
-        margin-left: auto;
+        position: relative;
+        left: 15%;
     }
     .soc i {
         margin: 12px !important;
