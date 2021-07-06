@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-container {
+    padding-top: 20px;
+    height:25vh;
+    /* background-color:#65c1be; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.header-left{
+    padding-left: 3%;
+    padding-top: 1%;
+    min-width: fit-content;
+}
+.header-middle{
+    width: 100%;
+    padding-left: 35%;
+    padding-right: 4%;
+}
+.center{
+    padding-top: 20px;
+    height:240px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+li::marker{
+    content: none;
+}
+li a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900 ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li a:hover{
+    color: #fff;
+}
+
+
+.nav-link {
+    color: #f5f5f5; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.nav-link:hover {
+    color: #9d9d9d;
+}
+.navbar-nav {
+    margin-left: 600px;
+}
+.section-1{
+    /* height: 100vh; */
+    background-image: url(https://bridge343.qodeinteractive.com/wp-content/uploads/2020/03/games-title-image.jpg);
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center 0px;
+    max-width: 100%;
+    height: auto;
+}
+body > div.container.section-2.box{
+    height: max-content;
+}
+.section-4{
+    background-size: 1920px;
+    background-image: url(https://bridge343.qodeinteractive.com/wp-content/uploads/2020/03/blog-title-image.jpg);
+    background-attachment: fixed;
+    background-position: center 0px;
+}
+.box{
+    width: 100%;
+    height: 600px;
+}
+.boxx{
+    width: 100%;
+    height: 450px;
+}
+.non-resp-img{
+    display: none;
+}
+.al-mng{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.one{
+    padding: 130px 0px 0px 0px;
+    position: relative;
+}
+.two{
+    padding: 36px 0px 0px 0px;
+    position: relative;
+}
+.three{
+    padding: 36px 0px 100px 0px;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    display: block;
+    left: 0;
+    width: 100%;
+}
+.title-area{
+    display: table;
+    height: 100%;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+.title-spc{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+.title-text-area{
+    position: relative;
+}
+.ttle{
+    font-size: 70px;
+    letter-spacing: 0px;
+    line-height: 1.304347826086957em;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.row-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    overflow-wrap: normal;
+}
+.resp{
+    display: flex;
+    flex-direction: row;
+}
+.resp2{
+    display: flex;
+    flex-direction: row;
+}
+div img{
+    max-width: 100%;
+    height: auto;
+}
+a img{
+    max-width: 100%;
+    height: auto;
+}
+body > div.section-1.box > section > div:nth-child(3) > img{
+    max-width: 100%;
+    height: auto;
+}
+body > div.section-1.box > div.nav-head > nav > a > img{
+    max-width: 100%;
+    height: auto;
+  
+}
+.app-name{
+    color: #010101;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-align: center;
+}
+.apn{
+    font-size: 29px;
+}
+.download-icons{
+    display: flex;
+    justify-content: center;
+}
+.mg{
+    padding-left: 2%;
+}
+.footer-bg{
+    background-image: url(https://bridge343.qodeinteractive.com/wp-content/uploads/2020/03/section-bottom-background.jpg);
+    background-size: cover;
+}
+.blog-img-x{
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+.blog-text-inner{
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a.dec-rem{
+    text-decoration: none;
+    color: black;
+}
+a.hvr:hover{
+    color: #ec0064;
+}
+body > div.container > div.blog-x.box > div.blog-text > div > a > h2{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: none;
+}
+.post-info{
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #5e5e5e;
+}
+.post-body{
+    padding-top: 4%;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 300;
+}
+.read-more{
+    margin: 36px 0 0;
+}
+.read-more-btn{
+    padding: 18px 51px;
+    height: 54px;
+    line-height: 54px;
+    box-shadow: 8px 13px 19.6px 0.4px rgb(236 0 100 / 22%);
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    border-color: #ec0064;
+    font-style: normal;
+    font-weight: 900;
+    background-color: #ec0064;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-width: 0px;
+    text-decoration: none;
+}
+.skull-island {
+    background-image: url(https://bridge343.qodeinteractive.com/wp-content/uploads/2020/03/section-bottom-background.jpg);
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+}
+.subscription {
+    padding-top: 200px;
+    /* padding-left: 600px; */
+    text-align: -webkit-center;
+}
+.subscription p {
+    padding-left: 20px;
+    text-align: center;
+    margin: unset;
+    width: max-content;
+}
+.subscription form {
+    padding-bottom: 120px;
+    margin-top: -5%;
+    margin-right: 15%;
+}
+.signup {    
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    width: fit-content;
+}
+.form-group {
+    padding-left: 100px;
+}
+.form-control {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    width: 50px; 
+    height: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.navbar{
+    width: max-content;
+}
+footer {
+    display: flex;
+    columns: 4;
+    background-color: #3c1c7b;
+}
+.footer {
+    padding-right: 180px;
+    margin-left: 6%;
+    overflow: hidden;
+}
+.copyright {
+    padding-left: 50px;
+    padding-top: 7%;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+.soc {
+    padding-left: 100px;
+}
+.footbtn{
+    display: flex;
+    flex-direction: row;
+}
+.copsoc{
+    display: flex;
+}
