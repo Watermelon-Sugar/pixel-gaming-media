@@ -118,9 +118,14 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
+<<<<<<< HEAD
     
     #navbarNav{
         margin-left: -35%;
+=======
+    #navbarNav{
+      margin-left: -25%;
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
     }
     .row-container, .resp, .resp2{
       flex-direction: column;
@@ -129,11 +134,19 @@
       display: none;
     }    
     body > div.section-1.box > section > div.header-left{
+<<<<<<< HEAD
         width: 100%;
         text-align: center;
     }
     body > div.section-1.box > section{
         background-color:#3c1c7b ;
+=======
+      width: 100%;
+      text-align: center;
+    }
+    body > div.section-1.box > section{
+      background-color:#3c1c7b ;
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
     }
     body > div.section-1.box > section > div.title > div > div > div{
       display: flex;
@@ -148,6 +161,7 @@
       margin-left: -15%;
     }
     .footer{
+<<<<<<< HEAD
       overflow: hidden;
     }
     .navbar{
@@ -155,6 +169,37 @@
       flex-direction: column;
     }
     body > footer > div > div{
+=======
+      overflow-x: hidden;
+    }
+    .navbar{
+      flex-direction: column;
+    }
+    .subscription p {
+      text-align: center;
+      margin: unset;
+      width: auto;
+    }
+    .form-group {
+        padding-left: unset;
+        margin: unset;
+        width: fit-content;
+    }
+    .subscription form {
+        padding-bottom: 120px;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+    footer{
+      overflow-x: hidden;
+    }
+    .image-1,.resp, .resp2, .row-container{
+      width: fit-content;
+    }
+
+
+    /* body > footer > div > div{
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
       width: max-content;
       padding-left: 18%;
     }
@@ -165,5 +210,9 @@
     body > div.section-1.box > section > div.title > div{
       width: fit-content;
       padding-left: 20%;
+<<<<<<< HEAD
     }
+=======
+    } */
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
   }

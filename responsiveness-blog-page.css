@@ -145,6 +145,7 @@
             display: flex;
             flex-direction: column;
         }
+<<<<<<< HEAD
         .navbar{
             flex-direction: column;
         }
@@ -152,6 +153,58 @@
             display: flex;
             flex-direction: column;
         }
+=======
+        .footbtn, .copsoc{
+            display: flex;
+            flex-direction: column;
+        }
+        .soc {
+            padding-left: 0%;
+            margin-left: -15%;
+        }
+        /* .navbar{
+            flex-direction: column;
+        } */
+        .boxx{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-text{
+            padding-bottom: 15%;
+            padding-top: 10%;
+        }
+        .blog-img-x{
+            width: 100%;
+    
+        }
+        .subscription p {
+            text-align: center;
+            margin: unset;
+            width: auto;
+        }
+        .form-group {
+            padding-left: unset;
+            margin: unset;
+            width: fit-content;
+        }
+        .subscription form {
+            padding-bottom: 120px;
+            margin-top: 0%;
+            margin-right: 0%;
+        }
+        footer{
+            overflow-x: hidden;
+        }
+        .footer {
+            padding-right: 35%;
+        }
+        .navbar{
+            padding-left: 5%;
+        }
+    
+    
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
 
 
 
@@ -201,6 +254,40 @@
     .navbar{
         flex-direction: column;
     }
+<<<<<<< HEAD
+=======
+    .boxx{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-text{
+        padding-bottom: 15%;
+        padding-top: 10%;
+    }
+    .blog-img-x{
+        width: 100%;
+
+    }
+    .subscription p {
+        text-align: center;
+        margin: unset;
+        width: auto;
+    }
+    .form-group {
+        padding-left: unset;
+        margin: unset;
+        width: fit-content;
+    }
+    .subscription form {
+        padding-bottom: 120px;
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+    footer{
+        overflow-x: hidden;
+    }
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
 
 
     /* CSS */

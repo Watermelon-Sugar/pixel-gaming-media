@@ -340,4 +340,10 @@ footer {
 }
 .copsoc{
     display: flex;
+<<<<<<< HEAD
+=======
+}
+.pagination{
+    justify-content: center;
+>>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
 }
