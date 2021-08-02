@@ -120,11 +120,10 @@ body > div.container.section-2.box{
 }
 .title-area{
     display: table;
-    height: 100%;
+    height: 55%;    
     position: relative;
     width: fit-content;
     margin: 0 auto;
-
 }
 .title-spc{
     display: table-cell;
@@ -340,10 +339,7 @@ footer {
 }
 .copsoc{
     display: flex;
-<<<<<<< HEAD
-=======
 }
 .pagination{
     justify-content: center;
->>>>>>> 01ba6e454c1cfd35b3f7e13f5e3ee8b74b62d16e
 }
